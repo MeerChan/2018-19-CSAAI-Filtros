@@ -9,7 +9,18 @@
   <body onload="main();">
     <p>Imagen original</p>
     <img src="black-hole.jpg" id="imagesrc">
+    <br>
+    <input type="range" id="deslizadorrojo" min="0" max="255" value="0"/>
+    <p id="valordeslizrojo">00</p>
+    <br>
+    <input type="range" id="deslizadorverde" min="0" max="255" value="0"/>
+    <p id="valordeslizverde">00</p>
+    <br>
+    <input type="range" id="deslizadorazul" min="0" max="255" value="0"/>
+    <p id="valordeslizazul">00</p>
+    <br>
     <p>Imagen manipulada</p>
     <canvas id="display"></canvas>
+
   </body>
 </html>
